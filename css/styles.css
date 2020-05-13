@@ -1,5 +1,6 @@
 body {
   font-family: 'Merriweather', serif;
+  color: #40514E;
   margin: 0;
   text-align: center;
 }
@@ -23,10 +24,26 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+  color: #11999E;
+}
+
+a:hover {
+  color: #13E3EB;
+}
+
+p {
+  line-height: 2;
+}
+
 hr {
   border: none;
-  border-top: 7px dotted #80adc9;
-  width: 5%;
+  border-top: 6px dotted #80adc9;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
@@ -39,28 +56,25 @@ hr {
   margin: 50px 0
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px 0;
+}
 
 .bottom-container {
   background-color: #EAF6F6;
-  padding: 30px;
+  padding: 50px 0 20px;
   position: relative;
 }
 
-.contact-me {
-  margin: 30px 0;
+.contact-note {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
-.footer-link {
-  text-decoration: none;
-  padding: 0 15px;
+.copyright {
+  padding: 20px 0;
   color: #11999E;
-}
-
-#copyright {
-  margin-bottom: 0;
-  padding: 30px;
-  color: #11999E;
+  font-size: 0.75rem;
 }
 
 .top-sun {
@@ -83,7 +97,6 @@ hr {
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .butterfly-swim {
@@ -109,11 +122,11 @@ hr {
 .BUTTON_INS {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
-  border-radius: 20px;
+  border-radius: 8px;
   height: 10px;
   line-height: 10px;
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: 'Montserrat', sans-serif;
   width: 110px;
   font-size: 16px;
   font-weight: 100;
@@ -132,8 +145,9 @@ hr {
   border: solid #0DD4DB 1px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
-  border-radius: 20px;
+  border-radius: 8px;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .tiny-tent {
