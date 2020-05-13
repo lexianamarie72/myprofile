@@ -67,16 +67,16 @@ hr {
   position: absolute;
   right: 200px;
   top: 30px;
-  width: 200px;
-  height: 200px;
+  width: 25%;
+  height: 30%;
 }
 
 .bottom-cloud {
   bottom: 250px;
   position: absolute;
   left: 150px;
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  height: 30%;
 }
 
 .skill-row {
@@ -140,14 +140,14 @@ hr {
   position: absolute;
   right: 100px;
   bottom: 15px;
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 15%;
 }
 
 .campfire {
   position: absolute;
   left: 150px;
-  bottom: 30px;
-  height: 100px;
-  width: 100px;
+  bottom: 50px;
+  height: 50%;
+  width: 7%;
 }
